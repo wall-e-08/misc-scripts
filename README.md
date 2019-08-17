@@ -11,7 +11,7 @@
 ##
 ### <a id='django213'></a> install-django-2.1.3
 To install `django` version `2.1.3`
-Script Location: [`django/install-django-2.1.3`](misc-scripts/blob/master/django/install-django-2.1.3.sh)
+Script Location: [`django/install-django-2.1.3`](misc-scripts/blob/master/django/install-django-2.1.3.sh "download")
 run `source install-django-2.1.3.sh`, it will ask for a project name. Give it, then it will automatically install django.
 ###### Required packages: 
 - `pip`
@@ -29,7 +29,7 @@ run `source install-django-2.1.3.sh`, it will ask for a project name. Give it, t
 ##
 ### <a id='django224'></a> install-django-2.2.4
 To install `django` version `2.2.3`
-Script Location: [`django/install-django-2.2.4`](misc-scripts/blob/master/django/install-django-2.2.4.sh)
+Script Location: [`django/install-django-2.2.4`](misc-scripts/blob/master/django/install-django-2.2.4.sh "download")
 remaining details will be found [here](#django213)
 
 ##
