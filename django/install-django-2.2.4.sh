@@ -34,9 +34,9 @@ rm -r corebk;
 ###########################################################################################################
 
 # making all apps in a project folder:
-sed -e '5iPROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))\nsys.path.append(os.path.join(PROJECT_ROOT, "packages"))\n' -i manage.py;
-sed -e '9iimport sys' -i core/wsgi.py;
-sed -e '16iPROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))\nsys.path.append(os.path.join(PROJECT_ROOT, "packages"))\n' -i core/wsgi.py;
+# sed -e '5iPROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))\nsys.path.append(os.path.join(PROJECT_ROOT, "packages"))\n' -i manage.py;
+# sed -e '9iimport sys' -i core/wsgi.py;
+# sed -e '16iPROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))\nsys.path.append(os.path.join(PROJECT_ROOT, "packages"))\n' -i core/wsgi.py;
 
 # static root in settings.py:
 # $a\  for appending
