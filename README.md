@@ -3,6 +3,9 @@
 - ### django
   * [`install-django-2.1.3.sh`](#django213 "click to view details")
   * [`install-django-2.2.4.sh`](#django224 "click to view details")
+- ### databases
+  * ##### postgresql
+    * [`create_db.sh`](#psql-create-db "click to view details")
 
 
 ##
@@ -28,3 +31,9 @@ run `source install-django-2.1.3.sh`, it will ask for a project name. Give it, t
 To install `django` version `2.2.3`
 Script Location: [`django/install-django-2.2.4`](misc-scripts/blob/master/django/install-django-2.2.4.sh)
 remaining details will be found [here](#django213)
+
+##
+### <a id='psql-create-db'></a> postgresql/create_database
+To create database by name and password with given user.
+Set user, db name and password in the script first
+Script location: [`database/postgresql/create_db.sh`](misc-scripts/blob/master/database/postgresql/create_db.sh "download")
