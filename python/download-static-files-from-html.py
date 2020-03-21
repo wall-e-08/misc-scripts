@@ -14,7 +14,7 @@ from urllib.parse import urlparse
 from pathlib import Path
 
 
-host = 'https://templates.scriptsbundle.com/newsforest/demos/'
+host = 'https://google.com/'
 
 def download_and_save_file_on_relative_path(url):
     o = urlparse(url)
